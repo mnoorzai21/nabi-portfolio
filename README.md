@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mohammad Nabi Noorzai — Developer Portfolio
+
+My personal developer portfolio, built with **Next.js**, **TypeScript**, and **Tailwind CSS**.
+It showcases my skills, education, and full-stack projects, including a FinTech stock scanner
+and trading journal.
+
+> 🚧 **Status:** In active development. This is a rebuild of my original
+> [React portfolio](https://github.com/mnoorzai21/nabi-react-portfolio), modernized for
+> performance, accessibility, and SEO.
+
+## Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Linting:** ESLint
+- **Deployment:** Coming soon
+
+## Planned Features
+
+- [ ] Responsive layout for desktop, tablet, and mobile
+- [ ] About, Skills, Projects, Education, and Contact sections
+- [ ] Project case studies with screenshots and architecture notes
+- [ ] SEO metadata and social preview images
+- [ ] Accessible design (keyboard navigation, semantic HTML, color contrast)
+- [ ] Working contact form
+- [ ] Deployment with a custom domain
 
 ## Getting Started
 
-First, run the development server:
+**Prerequisites:** Node.js 20 or later
 
 ```bash
+# Clone the repository
+git clone https://github.com/mnoorzai21/nabi-portfolio.git
+cd nabi-portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Author
 
-To learn more about Next.js, take a look at the following resources:
+**Mohammad Nabi Noorzai**
+B.S. Computer Science, San Diego State University (Dec 2024)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- GitHub: [@mnoorzai21](https://github.com/mnoorzai21)
+- LinkedIn: (https://www.linkedin.com/in/mnoorzai21)
