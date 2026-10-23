@@ -1,14 +1,5 @@
-type NavLink = {
-    label: string;
-    href: string;
-};
-
-const navLinks: NavLink[] = [
-    { label: "About", href: "#about" },
-    { label: "Projects", href: "#projects" },
-    { label: "Skills", href: "#skills" },
-    { label: "Contact", href: "#contact" },
-];
+import { navLinks } from "@/data/navigation";
+import MobileMenu from "@/components/MobileMenu";
 
 export default function Header() {
     return (
@@ -33,6 +24,7 @@ export default function Header() {
             </li>
           ))}
         </ul>
+          <MobileMenu links={navLinks} />
       </nav>
     </header>
   );
