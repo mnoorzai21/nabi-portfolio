@@ -12,7 +12,7 @@ export default function Header() {
           MN<span className="text-emerald-500">.</span>
         </a>
 
-        <ul className="hidden gap-4 text-sm font-medium sm: flex sm:gap-6">
+        <ul className="hidden gap-4 text-sm font-medium sm:flex sm:gap-6">
           {navLinks.map((link) => (
             <li key={link.href}>
               <a
