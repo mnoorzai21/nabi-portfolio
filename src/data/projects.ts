@@ -28,7 +28,7 @@ export const projects: Project[] = [
     image: "/projects/book-search.jpg",
     imageAlt: "Screenshot of the Book Search app showing book results",
     repoUrl: "https://github.com/mnoorzai21/book-searchjet-mnn",
-    liveUrl: "https://book-searchjet.onrender.com/",
+    liveUrl: "https://mnoorzai21.github.io/book-searchjet-mnn/",
   },
   {
     title: "Weather Dashboard",
