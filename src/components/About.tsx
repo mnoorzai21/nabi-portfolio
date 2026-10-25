@@ -7,7 +7,7 @@ const facts: Fact[] = [
     { label: "Location", value: "San Diego, CA" },
     { label: "Education", value: "B.S. Computer Science, SDSU (Dec 2024)" },
     { label: "Focus", value: "Full-stack development & FinTech" },
-    { label: "Open to", value: "Remote software engineering roles" },
+    { label: "Open to", value: "Remote, or hybrid/on-site in San Diego" },
 ];
 
 export default function About() {
