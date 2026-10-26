@@ -20,6 +20,7 @@ const siteDescription =
   "Software engineer building full-stack web applications with React, Next.js, and TypeScript, including FinTech tools for active traders.";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mnoorzai.vercel.app"),
   title: {
     default: `${siteName} | Software Engineer`,
     // Child pages set only their own title, e.g. "Projects" → "Projects | Mohammad Nabi Noorzai".
@@ -28,10 +29,13 @@ export const metadata: Metadata = {
   description: siteDescription,
   authors: [{ name: siteName, url: "https://github.com/mnoorzai21" }],
   creator: siteName,
+  alternates: {
+    canonical: "/",
+  },
   // Open Graph controls the preview card shown when this site is shared on LinkedIn, Slack, etc.
-  // TODO: add `metadataBase`, `url`, and a preview image once the site has a domain.
   openGraph: {
     type: "website",
+    url: "/",
     locale: "en_US",
     siteName,
     title: `${siteName} | Software Engineer`,
