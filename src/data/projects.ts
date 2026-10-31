@@ -26,7 +26,7 @@ export const projects: Project[] = [
       "Full-stack reading-list app built on the Google Books API. Users can search for books, sign up, and save a personal reading list.",
     tech: ["React", "Apollo GraphQL", "Express", "MongoDB Atlas", "JWT Auth"],
     image: "/projects/book-search.jpg",
-    imageAlt: "Screenshot of the Book Search app showing book results",
+imageAlt: "Book Search showing results for 'How to Day Trade for a Living' with book covers and descriptions",
     repoUrl: "https://github.com/mnoorzai21/book-searchjet-mnn",
     liveUrl: "https://mnoorzai21.github.io/book-searchjet-mnn/",
   },
