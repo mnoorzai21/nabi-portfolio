@@ -19,7 +19,7 @@ My personal portfolio site, built with Next.js, TypeScript, and Tailwind CSS. It
 - **Frontend:** Next.js 16 (App Router), React, TypeScript, Tailwind CSS, Geist font
 - **Backend:** None yet; every page is statically rendered at build time (a contact form using a Server Action is planned)
 - **Database:** None; content lives in TypeScript files in `src/data/`
-- **Testing & CI:** ESLint and TypeScript type checking (`npm run build`); Vercel builds a preview deployment for every pull request
+- **Testing & CI:** Playwright end-to-end tests (homepage, resume download, mobile menu), ESLint, and TypeScript type checking (`npm run build`); Vercel builds a preview deployment for every pull request
 - **Hosting:** Vercel, deploying automatically on every merge to `main`
 
 ## How It Works
@@ -67,6 +67,8 @@ npm run lint    # ESLint
 npm run build   # production build with full type checking
 npm run start   # serve the production build locally
 ```
+
+Before the first Playwright run, install the test browser with `npx playwright install chromium`.
 
 ## Deployment
 
