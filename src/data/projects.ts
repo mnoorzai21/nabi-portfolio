@@ -10,6 +10,16 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+    {
+    title: "TradeLens",
+    description:
+      "Full-stack trading journal for day traders. Log trades and see what actually makes money: exact-decimal P/L, win rate, expectancy, R-multiples, and max drawdown, with a read-only demo account to try.",
+    tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Better Auth"],
+    image: "/projects/tradelens.jpg",
+    imageAlt: "TradeLens dashboard showing performance stats, results by setup, and the cost of each trading mistake",
+    repoUrl: "https://github.com/mnoorzai21/tradelens",
+    liveUrl: "https://tradelens-mnoorzai.vercel.app",
+  },
   {
     title: "Stock Market Scanner",
     description:
